@@ -1,0 +1,112 @@
+/* General Styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header Styling */
+.header {
+  background-color: #fdd835;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+  color: #000;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+}
+
+.language-selector {
+  padding: 5px;
+}
+
+/* Main Section Styling */
+.main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+}
+
+.login-container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 300px;
+}
+
+.illustration {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin: 0;
+  color: #333;
+}
+
+p {
+  margin: 10px 0;
+  color: #555;
+}
+
+/* Form Styling */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-button {
+  background-color: #fdd835;
+  color: #000;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #fcc419;
+}
+
+/* Quick Pay Section */
+.quick-pay {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border-radius: 4px;
+  font-size: 14px;
+  text-align: left;
+}
